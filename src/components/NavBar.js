@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react';
 
-function NavBar() {
-  // update the JSX being returned!
-  return <nav>NavBar</nav>;
+function Navbar() {
+  return (
+    <nav>
+      <h1>Navbar content </h1> 
+    </nav>
+  );
 }
 
-export default NavBar;
+export default Navbar;

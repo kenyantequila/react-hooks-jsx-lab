@@ -1,9 +1,11 @@
-import React from "react";
-
+import React from 'react';
 
 function Home() {
-  // update the JSX being returned!
-  return <div>Home</div>;
+  return (
+    <div id="home">
+      Home content 
+    </div>
+  );
 }
 
 export default Home;
